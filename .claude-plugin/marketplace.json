@@ -2,8 +2,7 @@
   "name": "flow",
   "description": "Flow: a spec-driven, multi-agent development pipeline for Claude Code.",
   "owner": {
-    "name": "Christie Trent",
-    "url": "https://github.com/christie304"
+    "name": "flowst8.dev"
   },
   "plugins": [
     {

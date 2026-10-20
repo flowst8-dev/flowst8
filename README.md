@@ -14,7 +14,7 @@ read, diff and commit.
 /flow:run PROJ-123
 ```
 
-Built and maintained by [Christie Trent (@christie304)](https://github.com/christie304).
+Built and maintained by [flowst8.dev](https://github.com/flowst8-dev).
 
 ## Why spec-driven
 
@@ -62,7 +62,7 @@ pipeline diagram, the sub-agent roster and every flag.
 In Claude Code:
 
 ```
-/plugin marketplace add christie304/flow
+/plugin marketplace add flowst8-dev/flowst8
 /plugin install flow@flow
 ```
 
@@ -152,11 +152,11 @@ anywhere else.
 ## Contributing
 
 Issues and pull requests are welcome at
-[github.com/christie304/flow](https://github.com/christie304/flow).
+[github.com/flowst8-dev/flowst8](https://github.com/flowst8-dev/flowst8).
 Read [CLAUDE.md](CLAUDE.md) before changing the plugin — it covers
 version bumps, the files that must change together and the checks to
 run before merging.
 
 ## License
 
-[MIT](LICENSE) © Christie Trent
+[MIT](LICENSE) © flowst8.dev

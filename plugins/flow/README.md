@@ -33,7 +33,7 @@ setup when you commit it.
 ### 1. Install the plugin
 
 ```
-/plugin marketplace add christie304/flow
+/plugin marketplace add flowst8-dev/flowst8
 /plugin install flow@flow
 ```
 
