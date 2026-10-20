@@ -181,7 +181,7 @@ recall step at the Wave A join. The budget (ships 4000 characters, about
 loud warning above 100%. The pipeline **never writes** this file; it
 changes only via PR in the consuming repo. Entry format, save/skip rules
 and the injection-scan requirements are in
-[`docs/memory-design.md`](https://github.com/christie304/flow/blob/main/docs/memory-design.md)
+[`docs/memory-design.md`](https://github.com/flowst8-dev/flowst8/blob/main/docs/memory-design.md)
 in the Flow repository (not part of the installed plugin). A starter
 file ships at `assets/memory.template.md`. Set
 `FLOW_MEMORY_ENABLED=false` to skip both the memory load and the
@@ -226,7 +226,7 @@ The plugin's hooks read two more environment variables. They are not
 
 **Contribution model.** Install the plugin through Claude Code. To
 change Flow itself, fork
-[christie304/flow](https://github.com/christie304/flow), make
+[flowst8-dev/flowst8](https://github.com/flowst8-dev/flowst8), make
 the change, and open a PR. Using the plugin never requires a clone.
 
 ---

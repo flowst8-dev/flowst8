@@ -4,7 +4,7 @@ Curated facts about this codebase that every Flow run should know. Read
 by the `flow` plugin's pipeline at pre-flight — frozen per run, capped at
 `FLOW_MEMORY_CHAR_BUDGET` (default 4,000 characters).
 
-**Rules** (full rationale: [`docs/memory-design.md`](https://github.com/christie304/flow/blob/main/docs/memory-design.md) in the Flow repository; not part of the installed plugin):
+**Rules** (full rationale: [`docs/memory-design.md`](https://github.com/flowst8-dev/flowst8/blob/main/docs/memory-design.md) in the Flow repository; not part of the installed plugin):
 
 - One fact-cluster per bullet. Dense and actionable, like a good commit
   message. End every entry with provenance: `(initials, ticket, YYYY-MM)`.
