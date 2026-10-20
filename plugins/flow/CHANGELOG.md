@@ -68,8 +68,8 @@ or removals.
   schema `"1"` run files through the old key.
 - Hook and helper scripts renamed: `flow-path-guard.py`,
   `flow-telemetry-recover.py`, `flow_paths.py`, `flow_report.py`.
-- Plugin author is `flowst8.dev`. Repository and homepage point at
-  `flowst8-dev/flowst8`. The root manifest is now
+- Plugin author is `flowst8.dev`. Repository points at `flowst8-dev/flowst8`
+  and homepage at `https://flowst8.dev`. The root manifest is now
   `.claude-plugin/marketplace.json` (it was `plugin.json`, which made Claude
   Code read it as a plugin manifest with unknown fields).
 - Sub-agent versions bumped to 2.0.0 because their dispatch names changed.
