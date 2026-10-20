@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Local Flow output if you dogfood the plugin inside this repo
+.flow/.spec/
+.spec/
+.claude/settings.local.json

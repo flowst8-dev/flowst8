@@ -1,0 +1,20 @@
+{
+  "name": "flow",
+  "version": "2.1.0",
+  "description": "Spec-driven, multi-agent development pipeline for Claude Code. Takes a Jira ticket from card to spec to verified, reviewed, tested implementation in one command, with an append-only decision log alongside the spec. Ships its sub-agents, subcommand skills, guardrail hooks and a local telemetry report.",
+  "author": {
+    "name": "Christie Trent",
+    "url": "https://github.com/christie304"
+  },
+  "repository": "https://github.com/christie304/flow",
+  "homepage": "https://github.com/christie304/flow",
+  "license": "MIT",
+  "keywords": [
+    "jira",
+    "spec-driven",
+    "pipeline",
+    "multi-agent",
+    "code-review",
+    "playwright"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "flow",
+  "description": "Flow: a spec-driven, multi-agent development pipeline for Claude Code.",
+  "owner": {
+    "name": "Christie Trent",
+    "url": "https://github.com/christie304"
+  },
+  "plugins": [
+    {
+      "name": "flow",
+      "source": "./plugins/flow",
+      "description": "Spec-driven development pipeline: Jira ticket to spec to verified, reviewed, tested implementation in one command.",
+      "category": "development"
+    }
+  ]
+}

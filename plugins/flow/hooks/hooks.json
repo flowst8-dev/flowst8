@@ -1,0 +1,30 @@
+{
+  "description": "Flow guardrails: block spec writes outside the resolved spec root, plugin-cache edits and reads of per-user memory, and recover telemetry left by crashed runs when a turn ends.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|NotebookEdit|Bash|Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/flow-path-guard.py"],
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/flow-telemetry-recover.py"],
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}
